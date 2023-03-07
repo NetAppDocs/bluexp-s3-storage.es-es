@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Una vez que su entorno de trabajo Amazon S3 esté disponible en Canvas, puede añadir cubos adicionales directamente desde BlueXP. 
+---
+= Añadir bloques S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Una vez que su entorno de trabajo Amazon S3 esté disponible en Canvas, puede añadir cubos adicionales directamente desde BlueXP.
+
+.Pasos
+. En Canvas, haga doble clic en el entorno de trabajo de Amazon S3 para ver la página Descripción general de cubos de Amazon S3 y haga clic en *Agregar bloque*.
++
+image:screenshot-add-amazon-s3-bucket-button.png["Una captura de pantalla que muestra los detalles de un entorno de trabajo de Amazon S3 y el botón Add bucket."]
+
++
+Se muestra la página _Add bucket_.
+
++
+image:screenshot-add-amazon-s3-bucket.png["Una captura de pantalla que muestra la página Add Bucket para que pueda crear su propio bloque de Amazon S3."]
+
+. En la página Add bucket, introduzca la información necesaria para crear el bloque y haga clic en *Apply*.
++
+.. Introduzca el nombre que desea utilizar para el bloque.
+.. Seleccione la cuenta de AWS que será el propietario del bloque. Puede ser la cuenta principal donde se implementó el conector o puede ser un https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["Cuenta diferente que ha añadido a BlueXP"^].
+.. Seleccione la región de AWS donde se creará el bloque.
+.. Opcionalmente, se puede habilitar el bloqueo de objetos S3 en el bloque para almacenar objetos mediante un modelo WORM (escritura única, lectura múltiple). Si planea utilizar el bloqueo de objetos, debe habilitarlo al crear el bloque. La activación de Object Lock también permite el control de versiones. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Obtenga más información acerca del bloqueo de objetos en la documentación de Amazon S3"^].
++
+Se crea el bloque.
+
+
+
+
+
+.El futuro
+No se pueden configurar manualmente versiones, etiquetas o cifrado cuando se agrega inicialmente un bloque. Una vez creado el bloque, puede configurar estas otras propiedades del bloque. link:task-change-s3-bucket-settings.html["Más información sobre el cambio de la configuración de bloques"].

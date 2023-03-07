@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Después de instalar un conector en AWS, BlueXP puede descubrir automáticamente información sobre los cubos de Amazon S3 que residen en la cuenta de AWS donde está instalado el conector. Se añade un entorno de trabajo de Amazon S3 al lienzo para poder ver esta información. 
+---
+= Ver los bloques de Amazon S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Después de instalar un conector en AWS, BlueXP puede descubrir automáticamente información sobre los cubos de Amazon S3 que residen en la cuenta de AWS donde está instalado el conector. Se añade un entorno de trabajo de Amazon S3 al lienzo para poder ver esta información.
+
+Puede ver detalles sobre sus bloques de S3, incluida la región, la política de acceso, la cuenta, la capacidad total y utilizada, etc. Estos bloques se pueden usar como destinos para las operaciones Cloud Backup, Cloud Tiering o Cloud Sync. Además, puede usar Cloud Data Sense para analizar estos bloques.
+
+.Pasos
+. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["Instale un conector"^] En la cuenta de AWS, donde desea ver sus bloques de Amazon S3.
+. En el menú de navegación, selecciona *almacenamiento > Canvas*.
++
+Verá automáticamente su entorno de trabajo de Amazon S3 poco después.
+
++
+image:screenshot-amazon-s3-we.png["Captura de pantalla de un entorno de trabajo Amazon S3."]
+
+. Haga clic en el entorno de trabajo y seleccione una acción en el panel derecho si desea habilitar los servicios de BlueXP con su almacenamiento S3.
++
+image:screenshot-amazon-s3-actions.png["Captura de pantalla que muestra el panel acciones después de seleccionar un entorno de trabajo de Amazon S3. El panel muestra información sobre S3: El número de bloques y los servicios disponibles."]
+
++
+link:task-s3-enable-data-services.html["Vea qué servicios de BlueXP están disponibles y aprenda a usarlos con sus bloques de S3"].
+
+. Haga clic en *Entrar en entorno de trabajo*, o haga doble clic en el entorno de trabajo, para ver detalles sobre los bloques S3 de su cuenta de AWS.
++
+image:screenshot-amazon-s3-buckets.png["Una captura de pantalla que muestra los detalles de un entorno de trabajo Amazon S3: El número total de bloques y el número total de regiones, y una tabla que muestra los detalles de cada bloque de S3."]
+
++
+Además de las columnas que aparecen de forma predeterminada, puede desplazarse por la página para ver propiedades adicionales del bloque; por ejemplo, el número de etiquetas y si se ha habilitado el bloqueo de objetos o el control de versiones.
+
+
+
+.El futuro
+Puede cambiar algunos ajustes de cucharón directamente desde BlueXP haciendo clic en image:button-horizontal-more.gif["el botón más de tres puntos"] para un cucharón. link:task-change-s3-bucket-settings.html["Vaya aquí para obtener más información"].
+
+Puede añadir nuevos bloques S3 si hace clic en *Add bucket*. link:task-add-s3-bucket.html["Vaya aquí para obtener más información"].

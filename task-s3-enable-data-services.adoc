@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Después de descubrir cubos de S3 en BlueXP, puede utilizar los servicios de datos de NetApp para backup, organización en niveles, clasificación y sincronización de datos. 
+---
+= Utilice los servicios de datos de NetApp con bloques S3
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Después de descubrir cubos de S3 en BlueXP, puede utilizar los servicios de datos de NetApp para backup, organización en niveles, clasificación y sincronización de datos.
+
+* Utilice *Cloud Backup* para realizar copias de seguridad de datos de los sistemas ONTAP y Cloud Volumes ONTAP en las instalaciones al almacenamiento de objetos S3.
++
+Para empezar, visita el lienzo y arrastra y suelta un entorno de trabajo local de ONTAP o Cloud Volumes ONTAP en tu entorno de trabajo Amazon S3.
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Más información sobre cómo realizar backups de datos de ONTAP en el almacenamiento Amazon S3"^].
+
+* Utilice *Cloud Tiering* para organizar los datos inactivos de los clústeres ONTAP en las instalaciones en almacenamiento de objetos S3.
++
+Para empezar, ve al lienzo y arrastra y suelta un entorno de trabajo local de ONTAP en tu entorno de trabajo Amazon S3.
+
++
+https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["Obtenga más información acerca de la organización en niveles de los datos de ONTAP en el almacenamiento Amazon S3"^].
+
+* Utilice *Cloud Sync* para sincronizar datos con o desde bloques S3.
++
+Para empezar, vaya al lienzo y arrastre y suelte el entorno de trabajo de origen en el entorno de trabajo de destino. El entorno de trabajo de Amazon S3 puede ser el origen o el destino.
+
++
+También puede seleccionar su entorno de trabajo de Amazon S3 y hacer clic en *Sincronizar datos* en el panel Servicios para sincronizar datos con o desde cubos S3.
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Más información acerca del servicio Cloud Sync"^].
+
+* Utilice *Cloud Data Sense* para analizar sus cubos de S3 en busca de datos personales y confidenciales. Cloud Data Sense puede analizar cualquier bloque de la cuenta, independientemente de si se ha creado para una solución de NetApp.
++
+Para comenzar, seleccione su entorno de trabajo de Amazon S3 y seleccione la opción adecuada en la sección *Clasificación* del panel Servicios para iniciar el análisis de sus bloques S3.
+
++
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["Obtenga más información acerca del servicio Cloud Data Sense"^].
+
+
