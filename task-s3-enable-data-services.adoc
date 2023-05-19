@@ -21,14 +21,14 @@ Después de descubrir cubos de S3 en BlueXP, puede utilizar los servicios de dat
 Para empezar, visita el lienzo y arrastra y suelta un entorno de trabajo local de ONTAP o Cloud Volumes ONTAP en tu entorno de trabajo Amazon S3.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Más información sobre cómo realizar backups de datos de ONTAP en el almacenamiento Amazon S3"^].
+https://["Más información sobre cómo realizar backups de datos de ONTAP en el almacenamiento Amazon S3"^].
 
 * Utiliza la organización en niveles *BlueXP* para organizar en niveles los datos inactivos de los clústeres de ONTAP on-premises en el almacenamiento de objetos S3.
 +
 Para empezar, ve al lienzo y arrastra y suelta un entorno de trabajo local de ONTAP en tu entorno de trabajo Amazon S3.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["Obtenga más información acerca de la organización en niveles de los datos de ONTAP en el almacenamiento Amazon S3"^].
+https://["Obtenga más información acerca de la organización en niveles de los datos de ONTAP en el almacenamiento Amazon S3"^].
 
 * Usa *BlueXP copy and sync* para sincronizar datos con o desde buckets de S3.
 +
@@ -38,13 +38,13 @@ Para empezar, vaya al lienzo y arrastre y suelte el entorno de trabajo de origen
 También puede seleccionar su entorno de trabajo de Amazon S3 y hacer clic en *Copiar y sincronizar* en el panel Servicios para sincronizar los datos con o desde los depósitos de S3.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Obtén más información sobre el servicio de copia y sincronización de BlueXP"^].
+https://["Obtén más información sobre el servicio de copia y sincronización de BlueXP"^].
 
 * Usa *BlueXP CLASSION* para escanear tus cubos S3 en busca de datos personales y confidenciales. La clasificación de BlueXP puede analizar cualquier bloque de la cuenta, independientemente de si se ha creado para una solución de NetApp.
 +
 Para comenzar, seleccione su entorno de trabajo de Amazon S3 y seleccione la opción adecuada en la sección *Clasificación* del panel Servicios para iniciar el análisis de sus bloques S3.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["Obtén más información sobre el servicio de clasificación de BlueXP"^].
+https://["Obtén más información sobre el servicio de clasificación de BlueXP"^].
 
 

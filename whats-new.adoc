@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, backup, restore' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: Descubra las novedades del almacenamiento Amazon S3 en BlueXP. 
 ---
 = Novedades del almacenamiento Amazon S3 en BlueXP
@@ -24,4 +24,4 @@ Descubra las novedades del almacenamiento Amazon S3 en BlueXP.
 
 === Posibilidad de añadir nuevos cubos desde BlueXP
 
-Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP. https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["Descubra cómo añadir nuevos bloques de Amazon S3"^].
+Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP. https://["Descubra cómo añadir nuevos bloques de Amazon S3"^].
