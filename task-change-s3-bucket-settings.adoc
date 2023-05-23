@@ -35,7 +35,7 @@ image:screenshot-edit-amazon-s3-bucket.png["Una captura de pantalla que muestra 
 
 El control de versiones permite mantener varias versiones de un objeto en un bloque para poder restaurar objetos que se eliminen o se sobrescriben accidentalmente. Puede cambiar la configuración de control de versiones para objetos futuros cuando se añadan al bloque. El cambio de la configuración de versiones no cambia el valor de los objetos existentes.
 
-El control de versiones está desactivado de forma predeterminada en los nuevos bloques creados por BlueXP, a menos que se active el bloqueo de objetos cuando se creó el bloque. https://["Obtenga más información sobre las versiones en la documentación de Amazon S3"^].
+El control de versiones está desactivado de forma predeterminada en los nuevos bloques creados por BlueXP, a menos que se active el bloqueo de objetos cuando se creó el bloque. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Obtenga más información sobre las versiones en la documentación de Amazon S3"^].
 
 Una vez activado, si desea detener el control de versiones temporal o permanentemente, puede elegir el estado "suspendido". No se puede deshabilitar el control de versiones una vez que se ha activado.
 
@@ -47,7 +47,7 @@ image:screenshot-amazon-s3-versioning.png["Una captura de pantalla que muestra c
 
 Las etiquetas son metadatos que puede utilizar para agrupar recursos para identificar aplicaciones, entornos, regiones, proveedores de cloud y mucho más. Las etiquetas se componen de una clave de etiqueta y un valor de etiqueta. Puede agregar etiquetas a un bloque para que las etiquetas se apliquen a los objetos cuando se añadan al bloque. También puede cambiar y eliminar etiquetas y valores de etiquetas.
 
-Las etiquetas están deshabilitadas de forma predeterminada en nuevos bloques creados por BlueXP. https://["Obtenga más información sobre las etiquetas en la documentación de Amazon S3"^].
+Las etiquetas están deshabilitadas de forma predeterminada en nuevos bloques creados por BlueXP. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Obtenga más información sobre las etiquetas en la documentación de Amazon S3"^].
 
 image:screenshot-amazon-s3-tags.png["Una captura de pantalla que muestra cómo añadir un nuevo par clave/valor de etiqueta para un bloque."]
 
@@ -59,7 +59,7 @@ Después de agregar una etiqueta, haga clic en *aplicar* para guardar los cambio
 
 El cifrado del lado del servidor le permite cifrar datos en el destino de Amazon S3. Amazon S3 cifra sus datos a nivel de objeto, ya que los escribe en el disco y los descifra cuando accede a ellos. Puede cambiar la configuración de cifrado utilizada para futuros objetos cuando se agregan al bloque.
 
-El cifrado se habilita de forma predeterminada con "claves gestionadas por Amazon S3 (SSE-S3)" en bloques nuevos creados por BlueXP. https://["Obtenga más información sobre el cifrado en el servidor en la documentación de Amazon S3"^].
+El cifrado se habilita de forma predeterminada con "claves gestionadas por Amazon S3 (SSE-S3)" en bloques nuevos creados por BlueXP. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Obtenga más información sobre el cifrado en el servidor en la documentación de Amazon S3"^].
 
 Como alternativa, puede optar por habilitar el cifrado con la "clave del servicio de gestión de claves de AWS (SSE-KMS)". El cifrado también es posible usando sus propias claves proporcionadas por el cliente (SSE-C), pero esta funcionalidad no está disponible a través de la interfaz de usuario de BlueXP; deberá utilizar la interfaz de Amazon.
 
@@ -69,4 +69,4 @@ Si elige "clave del servicio de gestión de claves de AWS (SSE-KMS)", puede eleg
 
 image:screenshot-amazon-s3-encryption2.png["Una captura de pantalla que muestra cómo seleccionar la configuración de cifrado alternativa para un bloque."]
 
-https://["Obtenga más información sobre el servicio de gestión de claves de AWS desde la documentación de Amazon S3"^] y acerca de https://["Uso de las claves de los clientes en lugar de las de AWS"^].
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Obtenga más información sobre el servicio de gestión de claves de AWS desde la documentación de Amazon S3"^] y acerca de https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["Uso de las claves de los clientes en lugar de las de AWS"^].

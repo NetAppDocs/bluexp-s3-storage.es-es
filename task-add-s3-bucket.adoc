@@ -30,9 +30,9 @@ image:screenshot-add-amazon-s3-bucket.png["Una captura de pantalla que muestra l
 . En la página Add bucket, introduzca la información necesaria para crear el bloque y haga clic en *Apply*.
 +
 .. Introduzca el nombre que desea utilizar para el bloque.
-.. Seleccione la cuenta de AWS que será el propietario del bloque. Puede ser la cuenta principal donde se implementó el conector o puede ser un https://["Cuenta diferente que ha añadido a BlueXP"^].
+.. Seleccione la cuenta de AWS que será el propietario del bloque. Puede ser la cuenta principal donde se implementó el conector o puede ser un https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["Cuenta diferente que ha añadido a BlueXP"^].
 .. Seleccione la región de AWS donde se creará el bloque.
-.. Opcionalmente, se puede habilitar el bloqueo de objetos S3 en el bloque para almacenar objetos mediante un modelo WORM (escritura única, lectura múltiple). Si planea utilizar el bloqueo de objetos, debe habilitarlo al crear el bloque. La activación de Object Lock también permite el control de versiones. https://["Obtenga más información acerca del bloqueo de objetos en la documentación de Amazon S3"^].
+.. Opcionalmente, se puede habilitar el bloqueo de objetos S3 en el bloque para almacenar objetos mediante un modelo WORM (escritura única, lectura múltiple). Si planea utilizar el bloqueo de objetos, debe habilitarlo al crear el bloque. La activación de Object Lock también permite el control de versiones. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Obtenga más información acerca del bloqueo de objetos en la documentación de Amazon S3"^].
 +
 Se crea el bloque.
 
