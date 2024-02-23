@@ -35,32 +35,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Avisos legales
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Manos a la obra
-    links:
-    - title: Consulte sus bloques de Amazon S3
-      url: task-viewing-amazon-s3.html
-  - title: Gestión de bloques S3
-    links:
-    - title: Añadir bloques S3
-      url: task-add-s3-bucket.html
-    - title: Cambiar la configuración de bloques
-      url: task-change-s3-bucket-settings.html
-    - title: Utilice los servicios de datos de NetApp con bloques S3
-      url: task-s3-enable-data-services.html
-  - title: Más información
-    links:
-    - title: Documentación de Amazon S3 para gestión fuera de BlueXP
-      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
-  - title: Blogs y comunidad
-    links:
-    - title: Comunidad de NetApp
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: Blog de BlueXP
-      url: https://bluexp.netapp.com/blog/topic/cloud-manager
-    - title: Seminarios web sobre el cloud
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family
