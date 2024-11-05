@@ -1,0 +1,9 @@
+= Posibilidad de añadir nuevos cubos desde BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Posibilidad de añadir nuevos cubos desde BlueXP
+
+Has tenido la posibilidad de ver cubos de Amazon S3 en BlueXP Canvas durante mucho tiempo. Ahora puede agregar nuevos cubos y cambiar las propiedades de los cubos existentes directamente desde BlueXP . https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["Descubra cómo añadir nuevos bloques de Amazon S3"].
