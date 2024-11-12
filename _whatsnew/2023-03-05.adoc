@@ -1,5 +1,7 @@
 = Posibilidad de añadir nuevos cubos desde BlueXP
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
